@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/worldofworldcraft_test/Wordapp.csproj": {}
+    "/Users/ville/RiderProjects/worldofworldcraft_test/Wordapp.csproj": {}
   },
   "projects": {
-    "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/worldofworldcraft_test/Wordapp.csproj": {
+    "/Users/ville/RiderProjects/worldofworldcraft_test/Wordapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/worldofworldcraft_test/Wordapp.csproj",
+        "projectUniqueName": "/Users/ville/RiderProjects/worldofworldcraft_test/Wordapp.csproj",
         "projectName": "Wordapp",
-        "projectPath": "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/worldofworldcraft_test/Wordapp.csproj",
-        "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/worldofworldcraft_test/obj/",
+        "projectPath": "/Users/ville/RiderProjects/worldofworldcraft_test/Wordapp.csproj",
+        "packagesPath": "/Users/ville/.nuget/packages/",
+        "outputPath": "/Users/ville/RiderProjects/worldofworldcraft_test/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "/Users/user/.nuget/NuGet/NuGet.Config"
+          "/Users/ville/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -75,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
