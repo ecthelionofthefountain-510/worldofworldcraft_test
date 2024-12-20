@@ -1,8 +1,110 @@
-body{
-    background-color: aquamarine;
+.regler {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
 }
 
-#message{
-    color: darkred;
-    font-weight: bold;
+.regler .overlap-wrapper {
+    background-color: #ffffff;
+    width: 1512px;
+    height: 982px;
+}
+
+.regler .overlap {
+    position: relative;
+    height: 982px;
+}
+
+.regler .group {
+    position: absolute;
+    width: 1512px;
+    height: 982px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/book2-1.png);
+    background-size: 100% 100%;
+}
+
+.regler .line {
+    position: absolute;
+    width: 1167px;
+    height: 4px;
+    top: 318px;
+    left: 172px;
+}
+
+.regler .frame {
+    position: absolute;
+    width: 756px;
+    height: 605px;
+    top: 322px;
+    left: 378px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.regler .frame::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+.regler .frame-text {
+    width: 756px;
+    height: 1033px;
+}
+
+.regler .overlap-group {
+    position: relative;
+    height: 1010px;
+    top: 23px;
+}
+
+.regler .rectangle {
+    position: absolute;
+    width: 248px;
+    height: 63px;
+    top: 947px;
+    left: 254px;
+    background-color: #325777;
+    border-radius: 46px;
+    box-shadow: 0px 0px 4px 2px #0000006e;
+}
+
+.regler .text-wrapper {
+    position: absolute;
+    width: 188px;
+    top: 960px;
+    left: 320px;
+    font-family: "Morpheus-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.regler .spelet-inleds-med {
+    position: absolute;
+    width: 756px;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    font-family: "Morpheus-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.regler .wow {
+    position: absolute;
+    width: 594px;
+    height: 213px;
+    top: 91px;
+    left: 448px;
+    object-fit: cover;
 }

@@ -11,22 +11,50 @@
 </head>
 
 <body>
-  <h1>Wordapp - en app som testar ord</h1>
-  
-  <form id="word-check">
-    <label>Skriv ett ord för att se om det finns i databasen</label>
-    <input type="text" name="word" placeholder="type a word">
-    <input type="submit" value="check">
-  </form>
-  
-  <form id="new-word">
-    <label>Skriv ett ord för att lägga till det i databasen</label>
-    <input type="text" name="new-word" placeholder="type a new word">
-    <input type="submit" value="save">
-  </form>
-  
-  <p id="message"></p>
-
+<div class="regler">
+  <div class="overlap-wrapper">
+    <div class="overlap">
+      <img class="line" src="img/line-1.svg"/>
+      <div class="frame">
+        <div class="frame-text">
+          <div class="overlap-group">
+            <div class="rectangle"></div>
+            <div class="text-wrapper">FORTSÄTT</div>
+            <p class="spelet-inleds-med">
+              Spelet inleds med att spelarna får instruktioner om hur det fungerar, och varje spelare får möjlighet
+              att skriva in sitt namn. Spelet kan spelas antingen ensam eller mot en annan spelare, där varje
+              spelare har sin egen skärm. På förstasidan visas spelets namn samt namnen på de deltagande
+              spelarna.<br/>Vid spelets start tilldelas spelarna slumpmässiga bokstäver, minst fem per omgång.
+              Målet är att bilda så många giltiga ord som möjligt med hjälp av dessa bokstäver. Spelarna kan använda
+              valfritt antal bokstäver för att skapa sina ord, och poäng delas ut baserat på hur många bokstäver som
+              används i varje ord. Varje ord-omgång har en tidsbegränsning på 45 sekunder.<br/>När en spelare är
+              nöjd med sitt ord, trycker de på &#34;KLAR&#34;, vilket skickar ordet till en databas för validering.
+              Efter varje omgång redovisas poängen innan spelet går vidare till nästa runda. Spelet pågår i totalt
+              fem omgångar, och när dessa är avslutade summeras poängen för att utse en vinnare.<br/>Utöver spelet
+              finns en möjlighet att chatta med andra spelare. Det går också att söka efter användare och se vilka
+              som är online. Spelplanen är utformad för att visa hur många möjliga ordkombinationer som finns,
+              vilket hjälper spelarna att strategiskt använda sina bokstäver.<br/>Spelet inleds med att spelarna
+              får instruktioner om hur det fungerar, och varje spelare får möjlighet att skriva in sitt namn. Spelet
+              kan spelas antingen ensam eller mot en annan spelare, där varje spelare har sin egen skärm. På
+              förstasidan visas spelets namn samt namnen på de deltagande spelarna.<br/>Vid spelets start tilldelas
+              spelarna slumpmässiga bokstäver, minst fem per omgång. Målet är att bilda så många giltiga ord som
+              möjligt med hjälp av dessa bokstäver. Spelarna kan använda valfritt antal bokstäver för att skapa sina
+              ord, och poäng delas ut baserat på hur många bokstäver som används i varje ord. Varje ord-omgång har
+              en tidsbegränsning på 45 sekunder.<br/>När en spelare är nöjd med sitt ord, trycker de på
+              &#34;KLAR&#34;, vilket skickar ordet till en databas för validering. Efter varje omgång redovisas
+              poängen innan spelet går vidare till nästa runda. Spelet pågår i totalt fem omgångar, och när dessa är
+              avslutade summeras poängen för att utse en vinnare.<br/>Utöver spelet finns en möjlighet att chatta
+              med andra spelare. Det går också att söka efter användare och se vilka som är online. Spelplanen är
+              utformad för att visa hur många möjliga ordkombinationer som finns, vilket hjälper spelarna att
+              strategiskt använda sina bokstäver.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img class="wow" src="img/wow.png"/>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>
