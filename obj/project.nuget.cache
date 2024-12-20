@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "19xXM8vEnLo=",
+  "dgSpecHash": "txzV/65B9iY=",
   "success": true,
-  "projectFilePath": "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/test_wow/Wordapp.csproj",
+  "projectFilePath": "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/worldofworldcraft_test/Wordapp.csproj",
   "expectedPackageFiles": [
     "/Users/user/.nuget/packages/microsoft.aspnetcore.openapi/8.0.7/microsoft.aspnetcore.openapi.8.0.7.nupkg.sha512",
     "/Users/user/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/test_wow/Wordapp.csproj": {}
+    "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/worldofworldcraft_test/Wordapp.csproj": {}
   },
   "projects": {
-    "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/test_wow/Wordapp.csproj": {
+    "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/worldofworldcraft_test/Wordapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/test_wow/Wordapp.csproj",
+        "projectUniqueName": "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/worldofworldcraft_test/Wordapp.csproj",
         "projectName": "Wordapp",
-        "projectPath": "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/test_wow/Wordapp.csproj",
+        "projectPath": "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/worldofworldcraft_test/Wordapp.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/test_wow/obj/",
+        "outputPath": "/Users/user/mai24ma/Agil utvecklingskultur, projektledning och kommunikation/worldofworldcraft_test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
